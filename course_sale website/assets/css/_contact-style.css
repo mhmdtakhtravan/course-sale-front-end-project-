@@ -1,0 +1,36 @@
+.container-fluid-costom {
+  background-color: rgb(0, 0, 129);
+  color: aliceblue;
+  height: 40px;
+}
+/* start contact section style */
+.contact {
+  font-size: 15px;
+}
+div.contact i {
+  color: orange;
+  vertical-align: -10px;
+  margin: 15px;
+}
+div.contact span {
+  color: white;
+  margin: 5px;
+  vertical-align: 1px;
+}
+/* end contact section style */
+/* start socialmedia section style */
+.social-media {
+  direction: ltr;
+}
+div.social-media a i {
+  color: orange;
+  vertical-align: -14px;
+  margin-right: 8px;
+  padding: 10px;
+  font-size: large;
+}
+div.social-media a i:hover {
+  color: aliceblue;
+  background-color: orange;
+}
+/* end socialmedia section style */

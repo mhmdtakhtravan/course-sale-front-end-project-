@@ -1,0 +1,109 @@
+.footer-section-wrapper {
+  background-color: rgb(1, 1, 68);
+  height: auto;
+}
+.copy-right {
+  color: #fff;
+  border-top: 2px solid #ffc412;
+  padding: 10px;
+}
+.desc {
+  padding: 14px;
+}
+.desc a i {
+  color: #ffc412;
+  font-size: 38px;
+  transform: rotate(-18deg);
+  margin: 10px;
+  vertical-align: -6px;
+}
+.desc p {
+  font-size: 16px;
+  margin-top: 14px;
+  color: #747272;
+}
+.desc a {
+  color: #fff;
+  font-size: 25px;
+}
+.service,
+.contact-us,
+.tamas-ba-ma {
+  color: #fff;
+  padding: 26px 14px;
+}
+.service h6,
+.contact-us h6,
+.tamas-ba-ma h6 {
+  font-size: 25px;
+  border-bottom: 2px solid #ffc412;
+}
+.service ul {
+  font-size: 16px;
+  padding-top: 6px;
+}
+.service ul li a {
+  color: #fff;
+  transition: 0.3s ease;
+}
+.service ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.service ul li ::before {
+  content: "\276f";
+  vertical-align: -1px;
+  padding-left: 10px;
+}
+.service ul li:hover a {
+  padding-right: 10px;
+  color: #ffc412 !important;
+}
+.contact-us ul li span {
+  color: #fff;
+  display: none;
+  font-size: 16px;
+  transition: 2s ease;
+}
+.contact-us ul li a {
+  color: #fff;
+  padding-right: 40px;
+  transition: 0.3s ease;
+}
+.contact-us ul li:hover span {
+  display: inline;
+}
+.contact-us ul li:hover a {
+  padding-right: 0;
+  color: #ffc412;
+}
+.contact-us ul li {
+  margin: 10px;
+  font-size: 18px;
+}
+.footer-section-wrapper form input[type="text"] {
+  width: 100%;
+  height: 38px;
+  padding: 10px;
+  outline: none;
+}
+.footer-section-wrapper form input[type="submit"] {
+  top: 1px;
+  left: 1px;
+  border: none;
+  background-color: #ffc412;
+  color: #fff;
+  height: 36px;
+  padding: 0 10px;
+  outline: none;
+  cursor: pointer;
+}
+.tamas-ba-ma ul li:not(:last-child) {
+  direction: ltr;
+}
+.tamas-ba-ma ul li {
+  padding-top: 10px;
+}
+.tamas-ba-ma ul li i{
+  padding-left: 5px;
+}

@@ -1,0 +1,32 @@
+.about-us-left {
+  background-color: #efefef;
+  padding: 30px;
+}
+.about-us-head {
+  border-bottom: 1px solid black;
+  padding-bottom: 18px;
+  font-size: 20px;
+}
+.about-us-body {
+  padding: 26px;
+  font-size: 8px;
+  line-height: 13px;
+  color: rgb(122, 121, 121);
+}
+.about-us-button {
+  background-color: orange;
+  padding: 5px 10px;
+  border-radius: 100px;
+  color: aliceblue;
+  float: left;
+  margin-left: 60px;
+  transition: 0.5s ease-in;
+}
+.about-us-button:hover {
+  border-radius: 0;
+}
+@media screen and (max-width:768px) {
+    .about-us-right{
+        display: none;
+    }
+}

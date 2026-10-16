@@ -1,0 +1,52 @@
+.teacher-section-wrapper {
+  background-image: url(../img/free-blue-purple-background.jpg);
+  /* min-height: 300px; */
+  background-size: 100%;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+}
+.teacher-picture {
+  max-height: 800px;
+}
+.teacher-title {
+  background-color: #fff;
+  top: 95%;
+  left: 50%;
+  width: 80%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  box-shadow: -1px 3px 7px 1px #efefef;
+  border-radius: 50px 0 50px 0;
+  margin: 30px 0;
+}
+.teacher-title span {
+  background-color: orange;
+}
+.teacher-title h3 {
+  margin: 30px 0 80px 0;
+}
+.teacher-dokme {
+  border: 3px solid orange;
+  /* display: inline-block; */
+  width: 100px;
+  padding: 10px 0;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s ease-in;
+  font-size: 9px;
+}
+.teacher-dokme:hover {
+  background-color: orange;
+  color: #fff;
+}
+@media screen and (max-width: 600px) {
+  .teacher-title h3 {
+    margin: 30px 0 80px 0;
+    font-size: 8px;
+  }
+  .teacher-dokme {
+    padding: 3px 0;
+  }
+}
